@@ -13,36 +13,29 @@ gcc subscriber_udp.c -o subscriberUDP
 ## 2. Ejecución
 
 ### 2.1 Ejecución del Broker
+./brokerTCP o ./brokerUDP
 
 ### 2.2 Ejecución del Publisher
+./publisherTCP \< partido \> o ./publisherUDP \< partido \>
+
+Un ejemplo de partido es: "Partido A vs B"
 
 ### 2.3 Ejecución del Subscriber
+./publisherTCP \< partido \> o ./publisherUDP \< partido \>
 
-## 3. Formato de Mensajes
+Un ejemplo de partido es: "Partido A vs B"
 
-### 3.1 Mensajes de Publisher
+## 3. Librerías Utilizadas
 
-### 3.2 Mensajes de Subscriber
+### 3.1 stdio.h
 
-## 4. Funcionamiento Interno del Broker
+### 3.2 stdlib.h
 
-## 5. Manejo de Concurrencia
+### 3.3 string.h
 
-## 6. Manejo de Errores
+### 3.4 unistd.h
 
-## 7. Librerías Utilizadas
+### 3.5 arpa/inet.h
 
-### 7.1 stdio.h
-
-### 7.2 stdlib.h
-
-### 7.3 string.h
-
-### 7.4 unistd.h
-
-### 7.5 arpa/inet.h
-
-### 7.6 sys/socket.h
-
-### 7.7 sys/select.h
+### 3.6 sys/select.h
 
