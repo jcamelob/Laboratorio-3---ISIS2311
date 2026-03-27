@@ -2,13 +2,13 @@
 
 ## 1. Compilación
 
-gcc broker_tcp.c -o brokerTCP
-gcc publisher_tcp.c -o publisherTCP
-gcc subscriber_tcp.c -o subscriberTCP
+gcc broker_tcp.c -o brokerTCP   
+gcc publisher_tcp.c -o publisherTCP   
+gcc subscriber_tcp.c -o subscriberTCP   
 
-gcc broker_udp.c -o brokerUDP
-gcc publisher_udp.c -o publisherUDP
-gcc subscriber_udp.c -o subscriberUDP
+gcc broker_udp.c -o brokerUDP   
+gcc publisher_udp.c -o publisherUDP   
+gcc subscriber_udp.c -o subscriberUDP   
 
 ## 2. Ejecución
 
